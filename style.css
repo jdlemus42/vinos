@@ -74,3 +74,52 @@ nav ul li {
     border-radius: 20px;
     font-weight: bold;
 }
+
+
+.section-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 150px;
+    background-color: #f8f1ea;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.card h2, .card p, .card button {
+    position: relative;
+    z-index: 1;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+.card button {
+    background-color: #f5d5ae;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.card button:hover {
+    background-color: #e0b895;
+}
